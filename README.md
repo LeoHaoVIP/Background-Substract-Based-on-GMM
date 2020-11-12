@@ -19,7 +19,7 @@ JUST CLONE THE REPOSITORY AND RUN IT!
 + Single Frame
 ![img_result](./doc_imgs_folder/result.png)
 + Demo Video
-[![Watch the video](./doc_imgs_folder/first_frame.png)](./doc_imgs_folder/video.mp4)
+[![video_result](./doc_imgs_folder/first_frame.png)](./doc_imgs_folder/video.mp4)
 
 ## Dependency
 * [OpenCV 3.4.1](https://opencv.org/opencv-3-4-1/)
