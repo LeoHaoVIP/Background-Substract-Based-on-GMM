@@ -208,8 +208,9 @@ def gmm_models_load(path):
 if __name__ == '__main__':
     # 初始化三个GMM模型，分别对应于R、G、B三个通道
     models = gmm_models_create()
-    gmm_model_path = './gmm_models_maxK={0}_alpha={1}_T={2}_sigma={3}.pkl'.format(models[0].k, models[0].alpha,
-                                                                                  models[0].t, SIGMA)
+    gmm_model_path = './models_learned/gmm_models_maxK={0}_alpha={1}_T={2}_sigma={3}.pkl'.format(models[0].k,
+                                                                                                 models[0].alpha,
+                                                                                                 models[0].t, SIGMA)
     # 如果模型已存在则直接加载
     if not os.path.exists(gmm_model_path):
         # 加载训练集

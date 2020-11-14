@@ -202,7 +202,8 @@ def gmm_model_load(path):
 if __name__ == '__main__':
     # 初始化GMM模型
     model = gmm_model_create()
-    gmm_model_path = './gmm_model_maxK={0}_alpha={1}_T={2}_sigma={3}.pkl'.format(model.k, model.alpha, model.t, SIGMA)
+    gmm_model_path = './models_learned/gmm_model_maxK={0}_alpha={1}_T={2}_sigma={3}.pkl'.format(model.k, model.alpha,
+                                                                                                model.t, SIGMA)
     # 如果模型已存在则直接加载
     if not os.path.exists(gmm_model_path):
         # 加载训练集
