@@ -40,7 +40,6 @@ def load_data_set(path):
     file_names = os.listdir(path)
     for filename in file_names:
         file_path = os.path.join(path, filename)
-        # 以灰度图的形式读取
         img = cv2.imread(file_path)
         image_set.append(img)
     return image_set
