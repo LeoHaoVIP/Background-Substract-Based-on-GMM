@@ -17,8 +17,10 @@ JUST CLONE THE REPOSITORY AND RUN IT!
 
 ## Results Representation
 + Single Frame
+  ------
 ![img_result](./doc_imgs_folder/result.png)
 + Demo Video
+  ------
 [![video_result](./doc_imgs_folder/first_frame.png)](./doc_imgs_folder/video.mp4)
 
 ## Dependency
